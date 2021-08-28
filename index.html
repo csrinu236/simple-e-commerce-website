@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home | Comfy</title>
+  </head>
+  <body>
+    <main class="main">
+      <nav class="navbar">
+        <div class="nav-center">
+          <div>
+            <button class="toggle-btn"><i class="fas fa-bars"></i></button>
+            <ul class="navbar-links">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="products.html">products</a>
+              </li>
+              <li>
+                <a href="about.html">about</a>
+              </li>
+            </ul>
+          </div>
+          <img src="./images/logo-white.svg" class="nav-logo" />
+          <div class="cart-btn-container">
+            <button class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <span class="cart-value">2</span>
+          </div>
+        </div>
+      </nav>
+      <div class="hero section-center">
+        <div class="hero-content">
+          <h1 class="text-slanted">Rest, relax, unwind</h1>
+          <h2>Embrace your choices - we do</h2>
+          <a href="products.html" class="btn hero-btn">shop now</a>
+        </div>
+      </div>
+      <div class="navbar-overlay">
+        <div class="navbar-overlay-container">
+          <button class="navbar-close"><i class="fas fa-times"></i></button>
+          <ul class="overlay-links">
+            <li>
+              <a href="index.html"><i class="fas fa-home fa-fw"></i>Home</a>
+            </li>
+            <li>
+              <a href="products.html">
+                <i class="fas fa-chair fa-fw"></i>products
+              </a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fas fa-book fa-fw"></i>about</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="cart-overaly">
+        <div class="cart-overlay-sidebar">
+          <button class="sidebar-close"><i class="fas fa-times"></i></button>
+          <h3 class="text-slanted">your cart</h3>
+          <div class="cart-items">
+            <!-- single cart item -->
+            <!-- <article class="cart-item"></article> -->
+            <!-- end of single cart item -->
+          </div>
+          <footer class="cart-footer">
+            <h2 class="text-slanted">total: $2.99</h2>
+            <a href="#" class="btn">check out</a>
+          </footer>
+        </div>
+      </div>
+    </main>
+    <section class="section-center section featured">
+      <h2 class="section-title"><span>/</span> featured</h2>
+      <div class="featured-products">
+        <!-- single product -->
+        <!-- <article class="featured-product">
+          <div class="featured-product-container">
+            <img src="./images/main-bcg.jpeg" alt="" />
+            <div class="featured-btn-container">
+              <a href="product.html?id=1" class="featured-btn">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+              <button class="featured-btn" data-id="1">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="featured-product-info">
+            <h4>High-back bench</h4>
+            <p>$ 2.99</p>
+          </div>
+        </article> -->
+        <!-- end of single product -->
+      </div>
+      <a href="products.html" class="btn">All products</a>
+    </section>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Product</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="main about">
+      <nav class="navbar">
+        <div class="nav-center">
+          <div>
+            <button class="toggle-btn"><i class="fas fa-bars"></i></button>
+            <ul class="navbar-links">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="products.html">products</a>
+              </li>
+              <li>
+                <a href="about.html">about</a>
+              </li>
+            </ul>
+          </div>
+          <img src="./images/logo-black.svg" class="nav-logo" />
+          <div class="cart-btn-container">
+            <button class="cart-btn">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <span class="cart-value">2</span>
+          </div>
+        </div>
+      </nav>
+      <div class="about-line">
+        <div class="section-center">
+          <h3 class="single-product-heading">Home /</h3>
+        </div>
+      </div>
+      <div class="single-page-product section-center section">
+        <!-- <img src="./images/main-bcg.jpeg" />
+        <div class="single-page-product-info">
+          <h2>High-back bench</h2>
+          <p class="text-slanted">By IKEA</p>
+          <h3 class="single-product-price">$2.99</h3>
+          <div class="color-box">
+            <div class="color"></div>
+            <div class="color"></div>
+          </div>
+          <p class="product-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem
+          </p>
+          <button class="btn addToCartBtn" data-id="1">add to cart</button>
+        </div> -->
+      </div>
+
+      <div class="navbar-overlay">
+        <div class="navbar-overlay-container">
+          <button class="navbar-close"><i class="fas fa-times"></i></button>
+          <ul class="overlay-links">
+            <li>
+              <a href="index.html"><i class="fas fa-home fa-fw"></i>Home</a>
+            </li>
+            <li>
+              <a href="products.html">
+                <i class="fas fa-chair fa-fw"></i>products
+              </a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fas fa-book fa-fw"></i>about</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="cart-overaly">
+        <div class="cart-overlay-sidebar">
+          <button class="sidebar-close"><i class="fas fa-times"></i></button>
+          <h3 class="text-slanted">your cart</h3>
+          <div class="cart-items">
+            <!-- single cart item -->
+            <!-- <article class="cart-item">
+              <img src="./images/main-bcg.jpeg" alt="" />
+              <div class="cart-item-info">
+                <h4 class="item-name">sreenu chenna</h4>
+                <p class="item-price">$2.99</p>
+                <button class="remove-btn">remove</button>
+              </div>
+              <div class="cart-item-quantity">
+                <button class="arrow-btn">
+                  <i class="fas fa-chevron-up"></i>
+                </button>
+                <h4 class="quantity">6</h4>
+                <button class="arrow-btn">
+                  <i class="fas fa-chevron-down"></i>
+                </button>
+              </div>
+            </article> -->
+            <!-- end of single cart item -->
+          </div>
+          <footer class="cart-footer">
+            <h2 class="text-slanted">total: $2.99</h2>
+            <a href="#" class="btn">check out</a>
+          </footer>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./src/pages/product.js"></script>
+  </body>
+</html>
